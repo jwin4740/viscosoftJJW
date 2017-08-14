@@ -1,0 +1,78 @@
+<div class='topContactContainer'>
+    <p class='topContact'><span class="topIcon glyphicon glyphicon-earphone"></span> 630-728-6099 <span class="topIcon glyphicon glyphicon-envelope"></span>        anncwinkle@yahoo.com</p>
+</div>
+
+{{!-- <nav style='border-radius: 0px; margin-bottom: 0px;' class="navbar navbar-default" role="navigation"> --}}
+
+
+
+<!-- Navbar with Mary's Way logo and links -->
+    
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+           <ul id="logoUl" class="nav navbar-nav">
+                <li><a href="/"><img id="logo" src="/images/MWLogo.png"></a></li>
+            </ul>
+          {{!-- <a class="navbar-nav navbar-brand navbar-left" href="/"><img src="/images/MWLogo.png"></a> --}}
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul id="collapsibleLinks" class="nav navbar-nav">
+          {{!-- <li><a href="/"><img id="logo" src="/images/MWLogo.png"></a></li> --}}
+            <li><a class="navlinks" href="/">Home <span class="sr-only">(current)</span></a></li>
+            <li><a class="navlinks" href="#">Who We Are</a></li>
+            <li class="dropdown">
+              <a href="#" class="navlinks dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Parishes<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="/parishes/Illinois">Illinois Chapters</a></li>
+                <li><a href="/parishes/Indiana">Indiana Chapters</a></li>
+                <li><a href="/parishes/Ohio">Ohio Chapters</a></li>
+                <li><a href="/parishes/North%20Carolina">North Carolina Chapters</a></li>
+              </ul>
+            </li>
+            <li><a class="navlinks" href="#">Prayer Corner</a></li>
+            <li><a class="navlinks" href="#">Prospective Speakers</a></li>
+            <li><a class="navlinks" href="#">Media & News</a></li>
+            <li><a class="navlinks" href="#">Contact Us</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+
+    {{!-- <div id='linkContainer'>
+        <ul id='myNav' class="nav navbar-nav">
+            <li class='navLink'><a href="/">Home</a></li>
+            <li class='navLink'><a href="#">Who We Are</a></li>
+            <li class="navLink dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Parishes <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <!--
+                    {{!Using dynamic links to fetch chapter names from database and display in handlebars expression }} {{#each chapter}}
+                    <li><a href="/parishes/{{state}}">{{chapterName}}</a></li>
+                    {{/each}}   -->
+
+                    <li><a href="/parishes/Illinois">Illinois Chapters</a></li>
+                    <li><a href="/parishes/Indiana">Indiana Chapters</a></li>
+                    <li><a href="/parishes/Ohio">Ohio Chapters</a></li>
+                    <li><a href="/parishes/North%20Carolina">North Carolina Chapters</a></li>
+
+                </ul>
+            </li>
+            <li class='navLink'><a href="#">Prayer Corner</a></li>
+            <li class='navLink'><a href="#">Prospective Speakers</a></li>
+            <li class='navLink'><a href="#">Media & News</a></li>
+
+            <li class='navLink'><a href="#">Contact Us</a></li>
+        </ul>
+    </div> --}}
+{{!-- </nav> --}}

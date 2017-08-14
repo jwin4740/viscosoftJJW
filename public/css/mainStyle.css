@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/mainClouds.jpg");
+}
+
+.topContactContainer {
+    padding: 10px;
+    background-color: #EEEEEE;
+}
+
+.topContact {
+    margin-bottom: 0px;
+}
+
+.topIcon {
+    margin-left: 15px;
+}
+
+
+.logoTest {
+    height: 100px;
+}
+
+/*.navLink {
+    padding-left: 10px;
+}*/
+
+main {
+    background-color: #EEEEEE;
+}
+
+.mainHolder {
+    text-align: center;
+}
+
+.mainMary {
+    padding: 30px 5px 30px 5px;
+}
+
+.container {
+    background-color: white;
+    padding: 0px;
+}
+
+#linkContainer {
+    text-align: center;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    font-size: 18px;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+#congrats {
+    text-align: center;
+}
+
+.year {
+    font-family: 'Courgette', cursive;
+    letter-spacing: 1.5px;
+    color: #0B4F80;
+}
+
+.thirdPic {
+    padding: 20px;
+}
+
+.subheader {
+    text-align: left;
+    font-family: 'Courgette';
+}
+
+.subPar {
+    text-align: left;
+}
+
+.parishImage {
+    width: 225px;
+    height: 160px;
+    border-radius: 2px;
+}
